@@ -58,7 +58,9 @@ function App() {
           <footer>
             <ul className="footerList">
                 <li>
-                  <img src={FirstFooterImage} alt="Основное изображение" />
+                  <div className="footerImageContainer">
+                    <img src={FirstFooterImage} alt="Основное изображение" />
+                  </div>
                   <div className="footerDescription">
                     <h2>01</h2>
                     <h3>Reviving Retro PCs</h3>
@@ -66,7 +68,9 @@ function App() {
                   </div>
                 </li>
                 <li>
-                  <img src={SecondFooterImage} alt="Основное изображение" />
+                  <div className="footerImageContainer">
+                    <img src={SecondFooterImage} alt="Основное изображение" />
+                  </div>
                   <div className="footerDescription">
                     <h2>02</h2>
                     <h3>Top 10 Laptops of 2022</h3>
@@ -74,7 +78,9 @@ function App() {
                   </div>
                 </li>
                 <li>
-                  <img src={ThirdFooterImage} alt="Основное изображение" />
+                  <div className="footerImageContainer">
+                    <img src={ThirdFooterImage} alt="Основное изображение" />
+                  </div>
                   <div className="footerDescription">
                     <h2>03</h2>
                     <h3>The Growth of Gaming</h3>
