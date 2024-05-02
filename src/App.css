@@ -47,8 +47,10 @@
 }
 
 .container{
-  padding: 2% 10%;
+  margin-top: 20px;
+  padding: 0px 50px;
 }
+
 .header {
   padding-bottom: 30px;
   display: flex;
@@ -220,7 +222,8 @@ button:hover {
 }
 
 .footerImageContainer {
-  width: 100%;
+  flex-shrink: 1;
+  width: 300px;
   height: 200px;
   max-height: 100%;
 }
