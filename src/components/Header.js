@@ -1,10 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import Logo from '../assets/images/logo.svg';  
-import IconMenu from '../assets/images/icon-menu.svg';  
-import CloseIcon from '../assets/images/icon-menu-close.svg'
-import { useState } from 'react';
-
+import CloseIcon from '../assets/images/icon-menu-close.svg';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,17 +24,25 @@ const Header = () => {
                         <li>Popular</li>
                         <li>Trending</li>
                         <li>Categories</li>
+                    </ul>
+                    <div className="mobileImageContainer" onClick={toggleMenu}>
+                        <svg width="100%" height="100%" viewBox="0 0 40 17" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="#00001A" fill-rule="evenodd">
+                                <path className="line top" d="M0 0h40v3H0z"/>
+                                <path className="line middle" d="M0 7h40v3H0z"/>
+                                <path className="line bottom" d="M0 14h40v3H0z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    {isOpen && (
                         <div className="closeIcon" onClick={toggleMenu}>
                             <img src={CloseIcon} alt="Закрыть" />
                         </div>
-                    </ul>
-                    <div className="mobileImageContainer" onClick={toggleMenu}>
-                        <img src={IconMenu} alt="Меню" />
-                    </div>
+                    )}
                 </div>
             </div>
         </header>
     );
 };
 
-export default Header
+export default Header;
