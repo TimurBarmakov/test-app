@@ -11,7 +11,6 @@ function App() {
     <div>
       <Header></Header>
       <ContentBlock></ContentBlock>
-      <ContentBlock></ContentBlock>
       <Footer></Footer>
     </div>
     

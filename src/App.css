@@ -47,6 +47,7 @@
 }
 
 .container{
+  max-width: 1400px;
   margin-top: 20px;
   padding: 0px 50px;
 }
@@ -239,4 +240,18 @@ button:hover {
   height: 50px;
 }
 
+@media (max-width: 1400px) {
+  .contentBlock {
+    flex-direction: column;
+  }
+  .mainContentDescription {
+    flex-direction: column;
+  }
+  .footerList {
+    flex-direction: column;
+  }
+  .newsBlock {
+    margin-top: 20px;
+  }
+}
 
