@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContentBlock.css';
 import MainImage from '../assets/images/image-web-3-desktop.jpg';
 
 const ContentBlock = () => {

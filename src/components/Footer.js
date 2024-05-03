@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 import FirstFooterImage from '../assets/images/image-retro-pcs.jpg';
 import SecondFooterImage from '../assets/images/image-gaming-growth.jpg';
 import ThirdFooterImage from '../assets/images/image-top-laptops.jpg';

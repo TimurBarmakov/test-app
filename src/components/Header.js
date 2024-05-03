@@ -1,10 +1,11 @@
 import React from 'react';
+import './Header.css';
 import Logo from '../assets/images/logo.svg';  
 
 const Header = () => {
     return (
-        <div className="container">
         <header className="header">
+        <div className="container">
                 <img src={Logo} alt="Логотип" />
                 <div className='headerNavigation'>
                     <ul className="headerNavigationMenu">
@@ -15,8 +16,9 @@ const Header = () => {
                         <li>Categories</li>
                     </ul>
                 </div>
-        </header>
         </div>
+        </header>
+
     );
 };
 

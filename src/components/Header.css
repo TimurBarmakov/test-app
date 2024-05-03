@@ -1,0 +1,46 @@
+
+header .container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerNavigationMenu li {
+    margin-right: 20px; 
+  }
+
+
+.headerNavigationMenu{
+    font-size: 20px;
+    color: rgb(156, 154, 154);
+  }
+  .headerNavigationMenu :hover{
+    color: rgb(227, 100, 100);
+    cursor: pointer;
+  }
+
+.headerNavigationMenu li:last-child {
+    margin-right: 0;
+  }
+  
+.headerNavigation {
+    display: flex;
+  }
+
+.header img {
+    height: 50px;
+  }
+
+.headerNavigationMenu {
+    display: flex;
+    
+    list-style-type: none; 
+  
+}
+
+.header {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
