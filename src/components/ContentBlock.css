@@ -61,6 +61,7 @@
     flex-direction: column;
     padding-left: 0px;
     list-style-type: none; 
+    gap: 20px;
   }
   .newsBlock h2{
     font-size: 34px;

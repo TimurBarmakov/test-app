@@ -38,8 +38,8 @@
 
   
 .footerImageContainer {
-    flex-shrink: 1;
-    width: 300px;
+    flex-shrink: 0;
+    width: 180px;
     height: 200px;
     max-height: 100%;
   }

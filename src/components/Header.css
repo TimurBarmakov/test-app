@@ -52,6 +52,13 @@
     height: 30px;
     width: 60px;
     display: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.mobileImageContainer:hover {
+    transform: translateY(-5px);
+
 }
 
 .mobileImageContainer img {
