@@ -26,13 +26,6 @@ const Footer = () => {
             title: "03",
             subTitle: "The Growth of Gaming",
             description: "How the pandemic has sparked fresh opportunities."
-        },
-        {
-            id: 4,
-            imgSrc: ThirdFooterImage,
-            title: "04",
-            subTitle: "The Growth of Gaming",
-            description: "How the pandemic has sparked fresh opportunities."
         }
     ];
 

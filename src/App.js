@@ -9,9 +9,9 @@ import ContentBlock from './components/ContentBlock';
 function App() {
   return (
     <div>
-      <Header></Header>
-      <ContentBlock></ContentBlock>
-      <Footer></Footer>
+      <Header />
+      <ContentBlock/>
+      <Footer/>
     </div>
     
   );
